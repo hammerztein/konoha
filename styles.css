@@ -152,7 +152,6 @@ body {
 .card-grid {
 	display: flex;
 	gap: 30px;
-	justify-content: space-between;
 }
 
 .card {
@@ -160,6 +159,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	gap: 10px;
+	flex: 1;
 }
 
 .card-img {
