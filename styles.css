@@ -106,6 +106,7 @@ body {
 .hero-text h1 {
 	font-size: 48px;
 	font-weight: 900;
+	color: #333;
 }
 
 .hero-text p {
@@ -131,4 +132,45 @@ body {
 .btn-hero:hover {
 	color: #fff;
 	opacity: 1;
+}
+
+/* card container */
+.card-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	background-color: #c68484;
+	padding: 40px 20% 80px;
+	box-shadow: inset 0 -3px 15px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+	color: #333;
+}
+
+.card-grid {
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.card-img {
+	height: 150px;
+	width: 180px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
+
+.card-text {
+	font-size: 14px;
+	color: #444;
+	text-align: center;
 }
