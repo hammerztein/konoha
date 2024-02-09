@@ -39,7 +39,7 @@ body {
 
 /* header */
 .header {
-	padding: 10px 20% 80px;
+	padding: 10px 20%;
 	background-color: #eeeeee;
 }
 
@@ -73,4 +73,43 @@ body {
 	color: #000;
 	border-bottom: 2px solid #000;
 	margin-bottom: -2px; /* to negate bottom border 2px */
+}
+
+/* hero container */
+.hero-section {
+	margin: 60px 0;
+	/* border: 1px solid red; */
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	gap: 20px;
+}
+.hero-text,
+.hero-img {
+	flex: 1 0 390px;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.hero-text p {
+	flex: 1;
+	font-size: 18px;
+	color: #555666;
+}
+
+.hero-img img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
