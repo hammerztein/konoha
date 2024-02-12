@@ -2,8 +2,8 @@
 :root {
 	--headingClr: #333;
 	--textClr: #555;
-	--headingLightClr: #bbb;
-	--textLightClr: #ddd;
+	--headingLightClr: #ddd;
+	--textLightClr: #bbb;
 	--transition: all 0.2s ease;
 	--borderRadius: 5px;
 	--boxShadow: 0 3px 8px rgba(0, 0, 0, 0.25);
@@ -88,7 +88,7 @@ body {
 .links .link {
 	display: inline-block;
 	padding-bottom: 2px;
-	color: #777;
+	color: var(--textLightClr);
 	transition: all 0.15s ease;
 }
 .links .link:hover {
@@ -106,7 +106,7 @@ body {
 }
 .hero-text,
 .hero-img {
-	flex: 1 0 390px;
+	flex: 1;
 }
 
 .hero-text {
@@ -118,13 +118,13 @@ body {
 .hero-text h1 {
 	font-size: 48px;
 	font-weight: 900;
-	color: #333;
+	color: var(--headingLightClr);
 }
 
 .hero-text p {
 	flex: 1;
 	font-size: 18px;
-	color: #555666;
+	color: var(--textLightClr);
 }
 
 .hero-img img {
@@ -135,15 +135,15 @@ body {
 }
 
 .btn-hero {
-	background-color: #9b4444;
-	color: #ccc;
-	opacity: 0.8;
+	background-color: var(--lightBgClr);
+	border: 1px solid var(--lightBgClr);
+	color: var(--headingClr);
 	transition: all 0.15s ease;
 }
 
 .btn-hero:hover {
-	color: #fff;
-	opacity: 1;
+	color: var(--headingLightClr);
+	background-color: var(--darkBgClr);
 }
 
 /* card container */
@@ -157,7 +157,7 @@ body {
 }
 
 .card-title {
-	color: #333;
+	color: var(--headingClr);
 }
 
 .card-grid {
@@ -178,12 +178,12 @@ body {
 	width: 180px;
 	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 	border-radius: var(--borderRadius);
-	border: 1px solid #ddd;
+	border: 1px solid var(--accentBgClr);
 }
 
 .card-text {
 	font-size: 14px;
-	color: #444;
+	color: var(--textClr);
 	text-align: center;
 }
 
@@ -194,7 +194,7 @@ body {
 }
 
 .quote-text {
-	color: #555;
+	color: var(--headingClr);
 	font-style: italic;
 	font-weight: 200;
 	font-size: 34px;
@@ -203,7 +203,7 @@ body {
 
 .quote-author {
 	display: block;
-	color: #333;
+	color: var(--textClr);
 	font-weight: 600;
 	font-size: 16px;
 	text-align: right;
@@ -228,21 +228,21 @@ body {
 
 .signup-title {
 	font-size: 20px;
-	color: #ddd;
+	color: var(--headingLightClr);
 }
 
 .signup-text {
-	color: #bbb;
+	color: var(--textLightClr);
 }
 
 .btn-signup {
 	background-color: #083535;
-	border: 1px solid #fff;
-	color: #ddd;
+	border: 1px solid var(--lightBgClr);
+	color: var(--textLightClr);
 	transition: all 0.15s ease;
 }
 .btn-signup:hover {
-	background-color: #ddd;
+	background-color: var(--lightBgClr);
 	color: #083535;
 }
 
@@ -254,11 +254,11 @@ footer {
 }
 
 footer p {
-	color: #333;
+	color: var(--headingLightClr);
 }
 
 footer p a {
-	color: #888;
+	color: var(--headingLightClr);
 	transition: all 0.15s ease;
 }
 
