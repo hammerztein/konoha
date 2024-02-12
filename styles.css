@@ -18,8 +18,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
 	text-wrap: balance;
 }
 
@@ -174,4 +173,27 @@ body {
 	font-size: 14px;
 	color: #444;
 	text-align: center;
+}
+
+/* quote  */
+.quote-container {
+	background-color: #a3c9aa;
+	padding: 80px 20%;
+}
+
+.quote-text {
+	color: #555;
+	font-style: italic;
+	font-weight: 200;
+	font-size: 34px;
+	text-wrap: balance;
+}
+
+.quote-author {
+	display: block;
+	color: #333;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: right;
+	margin-top: 15px;
 }
