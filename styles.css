@@ -233,3 +233,23 @@ body {
 	background-color: #ddd;
 	color: #9b4444;
 }
+
+/* footer */
+footer {
+	background-color: #eeeeee;
+	padding: 25px 0;
+	text-align: center;
+}
+
+footer p {
+	color: #333;
+}
+
+footer p a {
+	color: #888;
+	transition: all 0.15s ease;
+}
+
+footer p a:hover {
+	color: #000;
+}
