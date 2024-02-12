@@ -6,6 +6,10 @@ This landing page for best village in Naruto universe was made as a part of [The
 
 Create an entire landing web page from a design provided by The Odin Project foundations course.
 
+## Links
+
+[Live site preview](https://hammerztein.github.io/konoha)
+
 ## Things I Used
 
 - Semantic HTML5
