@@ -103,7 +103,7 @@ body {
 .hero-section {
 	padding: 40px 18%;
 	background-color: var(--darkBgClr);
-	justify-content: center;
+	align-items: center;
 	display: flex;
 	gap: 20px;
 }
@@ -120,7 +120,7 @@ body {
 .hero-img {
 	flex-shrink: 0;
 	height: 225px;
-	width: 400;
+	width: 400px;
 }
 
 .hero-img img {
