@@ -16,6 +16,9 @@ Create an entire landing web page from a design provided by The Odin Project fou
 - CSS variables
 - Flexbox first design
 
+## To-Do List
+- Responsive design
+
 ## What I Learned
 
 - Cemented my knowledge of flexbox layout, what it does, where it is needed and where it is not.
